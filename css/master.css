@@ -164,6 +164,7 @@ li {
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin:10px 0px;
 }
 .ulli > li:nth-of-type(1) > a {
   color: #8A8B8C;
