@@ -13,6 +13,15 @@ li {
   overflow-y: scroll;
   position: relative;
 }
+.mainheight::-webkit-scrollbar {
+  display: none;
+}
+.mainheight::-moz-scrollbar {
+  display: none;
+}
+.mainheight::-ms-scrollbar {
+  display: none;
+}
 .mainheight > .starimg {
   width: 100%;
   height: 100%;
@@ -129,7 +138,7 @@ li {
 
 .ulli {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   left: 0;
