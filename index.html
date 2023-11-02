@@ -44,82 +44,82 @@
       />
       <img class="starimg" src="img/shop-watches-2.jpg" alt="" />
       <img class="starimg" src="img/shubham-dhage-MpL4w1vb798-unsplash.jpg" alt="" />
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>nike air</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>balenciaga</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>bianchi</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>patagonia</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>beats</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>circoloco</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>zara man</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>Procedural</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>chanel</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>mini cooper</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>3D  graphics</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>represent</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>nike presto</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>napapijri</h1>
         </div>
       </a>
-      <a href="">
+      <a href="" class="ahhred">
         <div>
           <h1>nikon</h1>
         </div>
       </a>
-      <ul class="ulli" style="margin:0;">
+      <ul class="ulli">
         <li><a href="">
             Demos</a>
         </li>
@@ -248,7 +248,12 @@
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script> 
-    
+    let ahhred = document.querySelectorAll('main>a')
+    ahhred.forEach(val=>{
+      val.addEventListener('click',(e)=>{
+        e.preventDefault()
+      })
+    })
     let ulhali = document.querySelectorAll('.ulhali')
     let mainheight = document.getElementsByClassName('mainheight')[0]
     let ahref = document.querySelectorAll('a')
