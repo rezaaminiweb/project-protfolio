@@ -98,9 +98,24 @@ li {
 .mainheight > a:nth-of-type(17):hover > div > h1 {
   opacity: 1;
 }
+@media screen and (max-width: 698px) {
+  .mainheight > a:nth-of-type(10) > div > h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 698px) {
+  .mainheight > a:nth-of-type(11) > div > h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 698px) {
+  .mainheight > a:nth-of-type(13) > div > h1 {
+    font-size: 4rem;
+  }
+}
 .mainheight > a > div > h1 {
-  font-size: 10rem;
-  padding: 3rem 0rem;
+  font-size: 8rem;
+  padding: 5rem 0rem;
   text-transform: capitalize;
   opacity: 0.2;
   transition: 0.4s;
@@ -108,6 +123,7 @@ li {
 @media screen and (max-width: 706px) {
   .mainheight > a > div > h1 {
     font-size: 5rem;
+    padding: 3rem 0rem;
   }
 }
 

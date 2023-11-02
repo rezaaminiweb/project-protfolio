@@ -104,18 +104,40 @@ li{
        &:nth-of-type(17):hover>div>h1{
         opacity: 1;
        }
+       &:nth-of-type(10)>div>h1{
+        @media screen and (max-width:698px) {
+            font-size: 4rem ;
+            
+        }
+
+       }
+       &:nth-of-type(11)>div>h1{
+        @media screen and (max-width:698px) {
+            font-size: 4rem ;
+            
+        }
+
+       }
+       &:nth-of-type(13)>div>h1{
+        @media screen and (max-width:698px) {
+            font-size: 4rem ;
+            
+        }
+
+       }
        
        >div{
         // border: 2px solid blue;
         >h1{
             // border: 2px solid greenyellow;
-            font-size: 10rem;
-            padding: 3rem 0rem;
+            font-size: 8rem;
+            padding: 5rem 0rem;
             text-transform: capitalize;
             opacity: .2;
             transition: .4s;
             @media screen and (max-width:706px) {
                 font-size: 5rem;
+                padding: 3rem 0rem;
                 // font-weight: 900;
             }
         
